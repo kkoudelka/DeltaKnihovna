@@ -10,7 +10,7 @@ class DatabaseConnector
 {
     private function getPdo()
     {
-        return new PDO("mysql:dbname=d176025_hovna;host=wm156.wedos.net;charset=utf8", "w176025_hovna", "29bae7fh", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+        return new PDO("mysql:dbname=NAZEVDATABAZE;host=IPDATABAZE;charset=utf8", "USERNAME", "HESLO", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     }
 
 
